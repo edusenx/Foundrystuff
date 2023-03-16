@@ -11,7 +11,7 @@ Para meterle los movimientos (diurno, nocturno, etc), hay que crear objetos, con
 
 ![imagen](https://user-images.githubusercontent.com/128089838/225739230-8ab8566f-70a6-4c84-b3b2-0bf8e60322e8.png)
 ![imagen](https://user-images.githubusercontent.com/128089838/225739295-8a39f3b0-c737-44f2-8194-1a5eb3f96ee0.png)
-![imagen](https://user-images.githubusercontent.com/128089838/225740564-85fafdad-3f33-495f-8a39-d25d0f5a884b.png)
+![imagen](https://user-images.githubusercontent.com/128089838/225741966-69d9d1ff-c95e-41fc-890a-7816f6f524d3.png)
 
 
 Y a gozarlo.

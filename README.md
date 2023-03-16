@@ -5,7 +5,7 @@ Dentro de Foundry, hay que instalar el sistema PBTA.
 Luego crea un mundo con este sistema
 y al abrirlo se abrirá una ventana. Ahí pegas el contenido del archivo BB_PBTA_ES
 
-También añado el archivo es.json, cambiando un par de cosas de la traducción oficial del sistema para que cuadre mejor. Ese archivo hay que copiarlo en la carpeta del sistema /Data/systems/pbta/lang, y sobreescribir el existente
+También añado el archivo es.json, cambiando un par de cosas de la traducción oficial del sistema para que cuadre mejor. Ese archivo hay que copiarlo en la carpeta del sistema /Data/systems/pbta/lang, y sobreescribir el existente. Su uso es opcional y no varía la jugabilidad.
 
 Para meterle los movimientos (diurno, nocturno, etc), hay que crear objetos, con la plantilla "move", y ahí te pone las opciones de tirada, descripción, tipos de éxito etc. Una vez creado el movimiento, pincha y arrastra a la ficha.
 

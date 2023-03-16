@@ -1,5 +1,4 @@
-# Foundrystuff
-Cosicas de Foundry
+
 Esta es una hoja para el juego de rol Brindlewood Bay.
 Es para el programa Foundry VTT
 Dentro de Foundry, hay que instalar el sistema PBTA

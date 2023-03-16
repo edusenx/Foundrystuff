@@ -3,7 +3,7 @@ Esta es una hoja para el juego de rol Brindlewood Bay.
 Es para el programa Foundry VTT
 Dentro de Foundry, hay que instalar el sistema PBTA
 Luego crea un mundo con este sistema
-Y al abrirlo se abrirá una ventana. Ahí pegas el contenido del archivo BB_PBTA_ES
+y al abrirlo se abrirá una ventana. Ahí pegas el contenido del archivo BB_PBTA_ES
 
 También añado el archivo es.json, cambiando un par de cosas de la traducción oficial del sistema para que cuadre mejor. Ese archivo hay que copiarlo en la carpeta del sistema /Data/systems/pbta/lang, y sobreescribir el existente
 

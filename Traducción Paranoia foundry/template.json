@@ -1,0 +1,193 @@
+{
+  "Actor": {
+    "types": [
+      "troubleshooter",
+      "npc"
+    ],
+    "templates": {
+      "base": {
+        "health": {
+          "value": 4,
+          "min": 0,
+          "max": 4
+        },
+        "flag":{
+          "value": 0,
+          "min": 0,
+          "max": 4
+        },
+        "moxie": {
+          "value": 8,
+          "min": 0,
+          "max": 99
+        }
+      }
+    },
+    "troubleshooter": {
+      "templates": [
+        "base"
+      ],
+      "attributes": {
+        "name": {
+          "value": ""
+        },
+        "team": {
+          "value": ""
+        },
+        "mbd": {
+          "value": ""
+        },
+        "serviceGroup": {
+          "value": ""
+        },
+        "treasonButton": {
+          "value": ""
+        },
+        "violenceButton": {
+          "value": ""
+        }
+      },
+      "abilities": {
+        "brains": {
+          "label": "Cerebro",
+          "value": 0,
+          "skills": {
+            "alphaComplex": {
+              "label": "Alpha Complex",
+              "value": 0
+            },
+            "bureaucracy": {
+              "label": "Burocracia",
+              "value": 0
+            },
+            "psychology": {
+              "label": "Psicología",
+              "value": 0
+            },
+            "science": {
+              "label": "Ciencia",
+              "value": 0
+            }
+          }
+        },
+        "chutzpah": {
+          "label": "Chutzpah",
+          "value": 0,
+          "skills": {
+            "bluff": {
+              "label": "Bluff",
+              "value": 0
+            },
+            "charm": {
+              "label": "Encanto",
+              "value": 0
+            },
+            "intimidate": {
+              "label": "Intimidar",
+              "value": 0
+            },
+            "stealth": {
+              "label": "Sigilo",
+              "value": 0
+            }
+          }
+        },
+        "mechanics": {
+          "label": "Mecánica",
+          "value": 0,
+          "skills": {
+            "demolitions": {
+              "label": "Demoliciones",
+              "value": 0
+            },
+            "engineer": {
+              "label": "Ingeniería",
+              "value": 0
+            },
+            "operate": {
+              "label": "Operar",
+              "value": 0
+            },
+            "program": {
+              "label": "Programar",
+              "value": 0
+            }
+          }
+        },
+        "violence": {
+          "label": "Violencia",
+          "value": 0,
+          "skills": {
+            "athletics": {
+              "label": "Atletismo",
+              "value": 0
+            },
+            "guns": {
+              "label": "Armas",
+              "value": 2
+            },
+            "melee": {
+              "label": "Melee",
+              "value": 0
+            },
+            "throw": {
+              "label": "Lanzar",
+              "value": 0
+            }
+          }
+        }
+      },
+      "xp": "",
+      "missionObjectives": "",
+      "assignedGear": "",
+      "secrets":{
+        "aliases": "",
+        "secretObjective": "",
+        "serviceGroupFavors": "",
+        "secretSociety": "",
+        "mutantPower": "",
+        "secretSocietyFavors": "",
+        "treasonousGear":"",
+        "evidence":"",
+        "notes": ""
+      }
+    },
+    "npc": {
+      "templates": [
+        "base"
+      ],
+      "cr": 0
+    }
+  },
+  "Item": {
+    "types": [
+      "item",
+      "feature",
+      "spell"
+    ],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": [
+        "base"
+      ],
+      "quantity": 1,
+      "weight": 0,
+      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    },
+    "feature": {
+      "templates": [
+        "base"
+      ]
+    },
+    "spell": {
+      "templates": [
+        "base"
+      ],
+      "spellLevel": 1
+    }
+  }
+}
